@@ -8,17 +8,17 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 });
 hello_reagent.core.marks = new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"msg","msg",-1386103444),"you fuck"], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"msg","msg",-1386103444),"you fede"], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"msg","msg",-1386103444),"you baddy"], null)], null);
 hello_reagent.core.wtf = (function hello_reagent$core$wtf(){
-return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"Mark zero..."], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ul","ul",-1349521403),cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__39791){
-var map__39792 = p__39791;
-var map__39792__$1 = cljs.core.__destructure_map(map__39792);
-var msg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39792__$1,new cljs.core.Keyword(null,"msg","msg",-1386103444));
+return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"div","div",1057191632),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"h1","h1",-1896887462),"Mark zero..."], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"ul","ul",-1349521403),cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p__39801){
+var map__39802 = p__39801;
+var map__39802__$1 = cljs.core.__destructure_map(map__39802);
+var msg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__39802__$1,new cljs.core.Keyword(null,"msg","msg",-1386103444));
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"li","li",723558921),msg], null);
 }),hello_reagent.core.marks)], null)], null);
 });
 hello_reagent.core.start = (function hello_reagent$core$start(){
-var G__39793 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [hello_reagent.core.wtf], null);
-var G__39794 = document.getElementById("app");
-return (reagent.core.render_component.cljs$core$IFn$_invoke$arity$2 ? reagent.core.render_component.cljs$core$IFn$_invoke$arity$2(G__39793,G__39794) : reagent.core.render_component.call(null,G__39793,G__39794));
+var G__39803 = new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [hello_reagent.core.wtf], null);
+var G__39804 = document.getElementById("app");
+return (reagent.core.render_component.cljs$core$IFn$_invoke$arity$2 ? reagent.core.render_component.cljs$core$IFn$_invoke$arity$2(G__39803,G__39804) : reagent.core.render_component.call(null,G__39803,G__39804));
 });
 hello_reagent.core.init = (function hello_reagent$core$init(){
 return hello_reagent.core.start();

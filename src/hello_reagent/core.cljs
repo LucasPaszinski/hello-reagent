@@ -17,7 +17,7 @@
    [:h1 "Mark zero..."]
    [:ul (map (fn [{:keys [msg]}] [:li msg]) marks)]])
 
-(defn start []  (reagent/render-component [wtf] (. js/document (getElementById "app"))))
+(defn start [] (reagent/render-component [wtf] (. js/document (getElementById "app"))))
 
 (defn ^:export init []
   ;; init is called ONCE when the page loads
